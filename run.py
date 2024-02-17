@@ -43,6 +43,6 @@ for command in [gen_api, ]:
     app.cli.add_command(command)
     
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8085) #comment this out for production 
-    #app.run() # uncomment this for production
+    #app.run(host='0.0.0.0', port=8085) #comment this out for production 
+    app.run() # uncomment this for production
 
